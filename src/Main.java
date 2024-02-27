@@ -6,12 +6,12 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите 1-ое число: ");
-        int num1 = scanner.nextInt();
+        double num1 = scanner.nextInt();
 
         System.out.print("Введите 2-ое число: ");
-        int num2 = scanner.nextInt();
+        double num2 = scanner.nextInt();
 
-        int res;
+        double res;
 
         System.out.print("Действие: ");
         String action = scanner.nextLine();
